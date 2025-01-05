@@ -1,16 +1,2 @@
-# flutter_application_1
+in lib section the main_details.dart contains the main page of our app which contains three options, each of these option redirects the user to a new page which is dukn or gem_finder or travel_details (according to the option sellected) then these pages have there own functionalities and they proceed according to the flow of the app. This is just the wireframe of the app and the functionalities will be added soon
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
