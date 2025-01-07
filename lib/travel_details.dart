@@ -6,6 +6,8 @@ class TravelDetailsPage extends StatelessWidget {
       TextEditingController();
   final TextEditingController durationController = TextEditingController();
 
+  TravelDetailsPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -61,6 +63,8 @@ class TravelDetailsPage extends StatelessWidget {
 }
 
 class RoutesSuggestionsPage extends StatelessWidget {
+  const RoutesSuggestionsPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -84,6 +88,8 @@ class RoutesSuggestionsPage extends StatelessWidget {
 }
 
 class SelectPlanPage extends StatelessWidget {
+  const SelectPlanPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -142,6 +148,8 @@ class SelectPlanPage extends StatelessWidget {
 }
 
 class SummaryPage extends StatelessWidget {
+  const SummaryPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

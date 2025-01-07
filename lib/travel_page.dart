@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'travel_details.dart';
 
 final TextEditingController _startingLocationController =
     TextEditingController();
@@ -46,6 +47,8 @@ Widget build(BuildContext context) {
 }
 
 class SecondPage extends StatelessWidget {
+  const SecondPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -79,6 +82,17 @@ class SecondPage extends StatelessWidget {
                 // Currently non-functional
               },
               child: Text('Suggest Destination'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => RoutesSuggestionsPage()),
+                );
+              },
+              child: Text('next page'),
             ),
           ],
         ),
