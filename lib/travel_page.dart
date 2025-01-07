@@ -92,7 +92,7 @@ class SecondPage extends StatelessWidget {
                       builder: (context) => RoutesSuggestionsPage()),
                 );
               },
-              child: Text('Suggest Destination'),
+              child: Text('next page'),
             ),
           ],
         ),
