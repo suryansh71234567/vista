@@ -6,8 +6,6 @@ class LocationPage extends StatelessWidget {
   final TextEditingController specificationController = TextEditingController();
   final TextEditingController imagesController = TextEditingController();
 
-  LocationPage({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -60,8 +58,6 @@ class LocationPage extends StatelessWidget {
 }
 
 class QrPage extends StatelessWidget {
-  const QrPage({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
