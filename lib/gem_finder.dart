@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'travel_details.dart';
 
 class ExploreGemsPage extends StatelessWidget {
+  const ExploreGemsPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,10 +16,10 @@ class ExploreGemsPage extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: [
             DrawerHeader(
-              child: Text('Menu'),
               decoration: BoxDecoration(
                 color: Colors.blue,
               ),
+              child: Text('Menu'),
             ),
             ListTile(
               title: Text('Leaderboard'),
@@ -54,6 +56,8 @@ class ExploreGemsPage extends StatelessWidget {
 }
 
 class LeaderboardPage extends StatelessWidget {
+  const LeaderboardPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
