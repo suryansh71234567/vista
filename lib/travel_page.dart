@@ -88,8 +88,7 @@ class SecondPage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
-                      builder: (context) => RoutesSuggestionsPage()),
+                  MaterialPageRoute(builder: (context) => TravelDetailsPage()),
                 );
               },
               child: Text('next page'),
